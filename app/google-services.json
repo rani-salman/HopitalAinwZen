@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "130917801509",
+    "project_id": "hopitalainwzen",
+    "storage_bucket": "hopitalainwzen.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:130917801509:android:780a9f1b91df8910f1a9cc",
+        "android_client_info": {
+          "package_name": "com.example.hopitalainwzen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "130917801509-8vp1cbsksdepf61h7ri0rerrojaar7k9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3b_W8_zCCXrm4WrKbmYN2QbupoxHGqtE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "130917801509-8vp1cbsksdepf61h7ri0rerrojaar7k9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

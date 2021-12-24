@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/d12"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:textAlignment="gravity">
+
+    <EditText
+        android:id="@+id/Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_form_top"
+        android:hint="Enter Name"
+        android:inputType="textPersonName"
+        android:gravity="center"
+        android:textColorHint="@color/common_google_signin_btn_text_light_focused"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Email"
+        android:inputType="textEmailAddress"
+        android:gravity="center"
+        android:textColorHint="@color/common_google_signin_btn_text_light_default"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Phone Number"
+        android:inputType="textPhonetic"
+        android:gravity="center"
+        android:textColor="@color/hint_color"
+        android:textColorHint="@color/common_google_signin_btn_text_light_default"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/sickness"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="What is your illness?"
+        android:inputType="textLongMessage"
+        android:textColorHint="@color/common_google_signin_btn_text_light_default"
+        android:gravity="center"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/notes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your notes"
+        android:inputType="textLongMessage"
+        android:textColorHint="@color/common_google_signin_btn_text_light_default"
+        android:gravity="center"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/dialogLoginBtn"
+            style="@style/Base.Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:backgroundTint="@null"
+            android:background="#848482"
+            android:layout_marginTop="10dp"
+            android:text="Add an Appointment"
+            android:onClick="Onclick"/>
+    </LinearLayout>
+
+</LinearLayout>
